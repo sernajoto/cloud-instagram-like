@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Post from "../Post";
+import Post from '../Post'
 
 class Posts extends Component {
     constructor() {
@@ -21,7 +21,6 @@ class Posts extends Component {
             .then(res => { 
                 let pic = res.data.cloud.map(p => p);
                 this.setState({pics: pic});
-                console.log("state", this.state.pics);
             });
     }
 
