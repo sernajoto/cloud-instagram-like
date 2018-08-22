@@ -10,7 +10,7 @@ cd cloud-instagram-like
 npm install
 ```
 
-### 2. Server use this cloud-graphl server
+### 2. Server
 
 #### 2.1 For Local Server use this cloud-graphl server
 
